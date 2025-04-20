@@ -61,7 +61,7 @@ export default function ShowMnemonic({ mnemonic }: { mnemonic: string }) {
             <div key={wallet.index} className="p-3 mb-3 border rounded bg-gray-50">
               <p><strong>Index:</strong> {wallet.index}</p>
               <p><strong>Public Key:</strong> {wallet.publicKey}</p>
-              <p><strong>Secret Key:</strong> {wallet.secretKey.slice(0, 16)}... (hidden)</p>
+              <p><strong>Secret Key:</strong> {wallet.secretKey}</p>
             </div>
           ))}
         </div>
